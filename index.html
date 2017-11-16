@@ -20,6 +20,8 @@ var validateContactUs = function(){
 $("#li1").click(function()
 {
 $("#secAll1").show();
+$("#secAll1").css("height","450px");
+$("#book1").animate({margin:"10 0 0 0",height:"300px",width:"400px"},"slow");
 $("#secAll2").hide();
 $("#secAll3").hide();
 $("#secAll4").hide();
@@ -28,6 +30,8 @@ $("#secAll4").hide();
 $("#li2").click(function()
 {
 $("#secAll2").show();
+$("#secAll2").css("height","450px");
+$("#book2").animate({margin:"10 0 0 0",height:"300px",width:"400px"},"slow");
 $("#secAll1").hide();
 $("#secAll3").hide();
 $("#secAll4").hide();
@@ -36,6 +40,8 @@ $("#secAll4").hide();
 $("#li3").click(function()
 {
 $("#secAll3").show();
+$("#secAll3").css("height","450px");
+$("#book3").animate({margin:"10 0 0 0",height:"300px",width:"400px"},"slow");
 $("#secAll1").hide();
 $("#secAll2").hide();
 $("#secAll4").hide();
@@ -44,21 +50,29 @@ $("#secAll4").hide();
 $("#li4").click(function()
 {
 $("#secAll4").show();
+$("#secAll4").css("height","450px");
+$("#book4").animate({margin:"10 0 0 0",height:"300px",width:"400px"},"slow");
 $("#secAll1").hide();
 $("#secAll2").hide();
 $("#secAll3").hide();
 }
 ) ;
 
+//$(".asidePanel").click(
+//	function(){
+//		$("#book1").animate({height:'400px';width:'650px'},"slow");
+//	}
+//);
+
 		});
 	</script>
 
 </head>
 <body class="body">
-	<header class="headerh">
+	<header class="headerh row-1x">
 		<h2 class="h2">Welcome to Yoga For Me, You and All</h2>
 	</header>
-	<div id="divMain" class="col-12 pageclass">
+	<div id="divMain" class="col-12 pageclass row-1">
 		<nav class="nav-font">
 			<a href="index.html" target="_self" >Home</a>  |
 			<a href="#divPanel" target="_self" >Yoga Pannel</a>  |
@@ -74,7 +88,7 @@ $("#secAll3").hide();
 			<li><a href="#divContactUs" target="_self" >Contact Us</li>
 		</ul>
 	</div>-->
-	<div id="divHome" class="col-12 paragraphHome">
+	<div id="divHome" class="col-12 paragraphHome row-12">
 		<p class="paragraphHome">Health is Wealth. It is as simple as that. When we are healthy, we are better able to face challenges and give our best to whatever endeavor we undertake. Stress is a leading cause of chronic health problems, including colds, viruses, headaches, overeating, sleeplessness and smoking; the more health problems that your employees endure, the higher your health care costs will be.
 		</p><p class="paragraphHome">
 		As we know health is also important in our life. If health is good then we can able to overwhelm all things and all these luxuries life styles becomes handle easily.
@@ -128,14 +142,14 @@ $("#secAll3").hide();
 		</details><br/>
 		</div>
 	</div>
-	<div id="divPanel" class="col-12 paragraphPanel">
+	<div id="divPanel" class="col-12 paragraphPanel row-12">
 		<ul class="paragraphPanel">
 			<li id="li1">All
 				<aside id="secAll1" class="asidePanel"  >
 					<p id="p1" class="pageclass">A study looked at the health effects of stress by studying elderly caregivers looking after their spouses -- people who are naturally under a great deal of stress. It found that caregivers had a 63% higher rate of death than people their age who were not caregivers.
 					</p>
 					<figure id="fig1">
-						<img src="images/Book.jpg" alt="Book Template" width="200" height="100"/>
+						<img src="images/Book.jpg" id="book1"  alt="Book Template" width="200" height="100px"/>
 						<figcaption>Book Template</figcaption>
 					</figure>
 				</aside>
@@ -145,7 +159,7 @@ $("#secAll3").hide();
 					<p id="p2" class="pageclass">A study looked at the health effects of stress by studying elderly caregivers looking after their spouses -- people who are naturally under a great deal of stress. It found that caregivers had a 63% higher rate of death than people their age who were not caregivers.
 					</p>
 					<figure id="fig2">
-						<img src="images/Book.jpg" alt="Book Template" width="200" height="100"/>
+						<img src="images/Book.jpg" id="book2" alt="Book Template" width="200" height="100px"/>
 						<figcaption>Book Template</figcaption>
 					</figure>
 				</aside>
@@ -155,7 +169,7 @@ $("#secAll3").hide();
 					<p id="p3" class="pageclass">A study looked at the health effects of stress by studying elderly caregivers looking after their spouses -- people who are naturally under a great deal of stress. It found that caregivers had a 63% higher rate of death than people their age who were not caregivers.
 					</p>
 					<figure id="fig3">
-						<img src="images/Book.jpg" alt="Book Template" width="200" height="100"/>
+						<img src="images/Book.jpg" id="book3" alt="Book Template" width="200" height="100px"/>
 						<figcaption>Book Template</figcaption>
 					</figure>
 				</aside>
@@ -165,21 +179,21 @@ $("#secAll3").hide();
 					<p id="p4" class="pageclass">A study looked at the health effects of stress by studying elderly caregivers looking after their spouses -- people who are naturally under a great deal of stress. It found that caregivers had a 63% higher rate of death than people their age who were not caregivers.
 					</p>
 					<figure id="fig4">
-						<img src="images/Book.jpg" alt="Book Template" width="200" height="100"/>
+						<img src="images/Book.jpg" id="book4" alt="Book Template" width="200" height="100px"/>
 						<figcaption>Book Template</figcaption>
 					</figure>
 				</aside>
 			</li>
 		</ul>
 	</div>
-	<div id="divEvent" class="col-12 paragraphEvent">
+	<div id="divEvent" class="col-12 paragraphEvent row-12">
 		<div id="dive">Event Gallery
 			<div>Corporate Session </div>
 			<div>School/College Session</div>
 			<div>Yoga Social Event</div>
 		</div>
 	</div>
-	<div id="divContactUs" class="col-12 paragraphContact" >
+	<div id="divContactUs" class="col-12 paragraphContact row-10" >
 		<table class="tableclass">
 			<tr><td colspan="2" class="theadContactUs" align="center" >Contact Us
 				<!--<th class="theadContactUs" align="center">Contact Us</th>-->
@@ -220,21 +234,21 @@ $("#secAll3").hide();
 				<td class="tabletd">Contact No:</td>
 				<td><input type="text" id="txtContact" maxlength="10"  placeholder="Enter mobile number" class="pageclass" required></td>
 			</tr>
-			<tr height="10px"><td colspan="2"></td></tr>
-			<tr>
-				<td colspan="2" ><input type="button" id="btnSumbit" class="buttonContact" value="Sumbit">
-				&nbsp<input type="button" id="btnClear" class="buttonContact" value="Reset" ></td>
+			<tr height="25px"><td colspan="2"></td></tr>
+			<tr><td></td>
+				<td style="margin-left:55px;"><input type="button" id="btnSumbit" class="buttonContact" value="Sumbit">
+				&nbsp&nbsp<input type="button" id="btnClear" class="buttonContact" value="Reset" ></td>
 			</tr>
 			<tr height="10px"><td colspan="2"></td></tr>
 		</table>
 	</div>
-	<footer class="col-12 footerb" >
+	<footer class="col-12 footerb row-2" >
 		&nbspJoin Us @ following
 		<nav class="pagefont">
-			&nbsp<a href="" target="_blank" >Tweeter</a>  |
-			<a href="" target="_blank" >Facebook</a>  |
-			<a href="" target="_blank" >Google</a>  |
-			<a href="" target="_blank" >Email</a> 
+			&nbsp<a href="" target="_self" >Tweeter</a>  |
+			<a href="" target="_self" >Facebook</a>  |
+			<a href="" target="_self" >Google</a>  |
+			<a href="" target="_self" >Email</a> 
 		</nav>
 		
 	</footer>
