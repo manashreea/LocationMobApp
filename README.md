@@ -1,2 +1,2 @@
-# LocationMobApp
-This is mobile app of location
+# YogaSite
+This is yoga site project
