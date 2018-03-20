@@ -59,7 +59,8 @@ html, body{
     font-size: 100%;
 	font-family: 'verdana', verdana;
 	padding:5px;
-	background-color:#ffee97;
+	/*background-color:#ffee97;*/
+	background:url(../images/bg2.png) repeat 0px 0px;
 }
 p{
 	margin:0;
@@ -325,7 +326,7 @@ p.aut.autem {
 /*-- footer --*/
 /*-- footer --*/
 .footerb{
-	color:#ddaa28;
+	color:#dd2299;
 	/*background:#2E2E2E*/
 	/*background-color:#dddd97;*/
 	padding: 2em 0 1em;
@@ -1023,7 +1024,7 @@ p.aut.autem {
 .headerh{
 		font-family:verdana;
 		padding:5px;
-		background-color:#dddd97;
+		background:url(../images/bg3.png) repeat 0px 0px;
 		margin:1em 0;
 		color:#1020ff;
 		vertical-text:center;
@@ -1033,7 +1034,7 @@ p.aut.autem {
 		font-size:16px;
 		padding:5px;
 		display:blockquote;
-		background-color:#dddd97;
+		/*background-color:#dddd97;*/
 		overflow:auto;
 }
 .paragraphPanel{
@@ -1041,7 +1042,7 @@ p.aut.autem {
 		font-size:16px;
 		padding:5px;
 		display:blockquote;
-		background-color:#ffee97;
+		/*background-color:#ffee97;*/
 }
 .paragraphEvent{
 		font-family:verdana;
@@ -1054,12 +1055,14 @@ p.aut.autem {
 		font-family:verdana;
 		font-size:16px;
 		display:blockquote;
-		background-color:#ddaa97;
+		padding:10px;
+		margin-top:1em;
+		/*background-color:#ddaa97;*/
 }
 .tableclass{
 		font-family:verdana;
 		font-size:14px;
-	  	background-color:#ddaa97;
+	  	/*background-color:#ddaa97;*/
 		margin-left:25px;
 		width:30%;
 }
